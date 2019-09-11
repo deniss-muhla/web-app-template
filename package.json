@@ -2,6 +2,12 @@
   "name": "web-app-template",
   "version": "1.0.0",
   "description": "Web application template",
+  "keywords": [
+    "react",
+    "next js",
+    "pwa",
+    "spa"
+  ],
   "repository": "git@github.com:deniss-muhla/web-template.git",
   "author": "Deniss Muhļa <deniss.muhla@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
