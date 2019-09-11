@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "/.next": true,
+    "/out": true
+  },
+  "npm.packageManager": "yarn",
+  "npm.enableScriptExplorer": true,
+  "cSpell.words": ["Deniss", "Muhļa", "gmail"],
+  "cSpell.language": "en"
+}

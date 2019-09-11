@@ -1,0 +1,7 @@
+{
+  "name": "web-template",
+  "github": {
+    "autoAlias": false
+  },
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}

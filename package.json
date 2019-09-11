@@ -1,0 +1,26 @@
+{
+  "name": "web-app-template",
+  "version": "1.0.0",
+  "description": "Web application template",
+  "repository": "git@github.com:deniss-muhla/web-template.git",
+  "author": "Deniss Muhļa <deniss.muhla@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.3"
+  }
+}
