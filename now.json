@@ -1,7 +1,18 @@
 {
+  "version": 2,
   "name": "web-app-template",
   "github": {
     "autoAlias": false
   },
+  "routes": [
+    {
+      "src": "^/service-worker.js$",
+      "dest": "/_next/static/service-worker.js",
+      "headers": {
+        "cache-control": "public, max-age=43200, immutable",
+        "Service-Worker-Allowed": "/"
+      }
+    }
+  ],
   "builds": [{ "src": "package.json", "use": "@now/next" }]
 }

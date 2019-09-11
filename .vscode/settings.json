@@ -6,6 +6,13 @@
   },
   "npm.packageManager": "yarn",
   "npm.enableScriptExplorer": true,
-  "cSpell.words": ["Deniss", "Muhļa", "gmail"],
+  "cSpell.words": [
+    "Deniss",
+    "Interop",
+    "Muhļa",
+    "cacheable",
+    "esnext",
+    "gmail"
+  ],
   "cSpell.language": "en"
 }
