@@ -1,9 +1,6 @@
 {
   "version": 2,
   "name": "web-app-template",
-  "github": {
-    "autoAlias": false
-  },
   "routes": [
     {
       "src": "^/service-worker.js$",
