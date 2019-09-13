@@ -7,7 +7,7 @@ import { GithubCircle as GithubIcon } from 'mdi-material-ui';
 
 const About: FunctionComponent<PropsWithChildren<AboutProps & withI18nProps>> = ({ i18n, version, updateVersion }) => {
     return (
-        <>
+        <div data-test={About.displayName}>
             <Tooltip placement={'top'} title={i18n._(t`View the source on GitHub`)}>
                 <Link href={'https://github.com/deniss-muhla/web-app-template'}>
                     <Fab color={'default'} size={'small'} aria-label="github">
@@ -19,7 +19,7 @@ const About: FunctionComponent<PropsWithChildren<AboutProps & withI18nProps>> = 
             <Typography>
                 <Trans>Project version: {version}</Trans>
             </Typography>
-        </>
+        </div>
     );
 };
 

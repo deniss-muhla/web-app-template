@@ -11,7 +11,7 @@ const AvailablePets: FunctionComponent<PropsWithChildren<AvailablePetsProps>> = 
     }, [init]);
 
     return (
-        <Paper>
+        <Paper data-test={AvailablePets.displayName}>
             <Table>
                 <TableHead>
                     <TableRow>

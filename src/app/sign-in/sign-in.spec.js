@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
-const CY_SIGN_IN_LOGIN = 'cypress-admin';
-const CY_SIGN_IN_PASSWORD = 'Q_Q.Ew33K3Qn';
+const CY_SIGN_IN_LOGIN = 'web-app-template-user';
+const CY_SIGN_IN_PASSWORD = 'web-app-template-user';
 const SESSION_COOKIE_KEY = 'access_token';
 
 context('Sign In', () => {
