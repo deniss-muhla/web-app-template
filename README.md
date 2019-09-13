@@ -17,7 +17,7 @@ Web application template [web-app-template.deniss-muhla.now.sh](https://web-app-
 
 ---
 
-### Project Scripts
+### Project scripts
 
 start development server
 
