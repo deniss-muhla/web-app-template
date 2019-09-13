@@ -1,18 +1,27 @@
 {
   "editor.formatOnSave": true,
   "search.exclude": {
-    "/.next": true,
-    "/out": true
+    "**/public": true
   },
   "npm.packageManager": "yarn",
   "npm.enableScriptExplorer": true,
   "cSpell.words": [
-    "Deniss",
+    "Classname",
     "Interop",
-    "Muhļa",
-    "cacheable",
+    "Serializable",
+    "appbar",
+    "browserslist",
+    "dprs",
     "esnext",
-    "gmail"
+    "hardcoded",
+    "lingui",
+    "multilang",
+    "persistor",
+    "postmodels",
+    "roboto",
+    "rtrn",
+    "sockjs",
+    "unfetch"
   ],
-  "cSpell.language": "en"
+  "cSpell.language": "en,ru"
 }

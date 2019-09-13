@@ -1,0 +1,34 @@
+{
+  "Category": {
+    "translation": "Category",
+    "origin": [["src/app/available-pets/available-pets.tsx", 18]]
+  },
+  "Id": {
+    "translation": "Id",
+    "origin": [["src/app/available-pets/available-pets.tsx", 21]]
+  },
+  "Login": {
+    "translation": "Login",
+    "origin": [["src/app/sign-in/sign-in.tsx", 64]]
+  },
+  "Name": {
+    "translation": "Name",
+    "origin": [["src/app/available-pets/available-pets.tsx", 15]]
+  },
+  "Password": {
+    "translation": "Password",
+    "origin": [["src/app/sign-in/sign-in.tsx", 72]]
+  },
+  "Project version: {version}": {
+    "translation": "Project version: {version}",
+    "origin": [["src/app/about/about.tsx", 17]]
+  },
+  "View the source on GitHub": {
+    "translation": "View the source on GitHub",
+    "origin": [["src/app/about/about.tsx", 8]]
+  },
+  "sign in": {
+    "translation": "sign in",
+    "origin": [["src/app/sign-in/sign-in.tsx", 86]]
+  }
+}

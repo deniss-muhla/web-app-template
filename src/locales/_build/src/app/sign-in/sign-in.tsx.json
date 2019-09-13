@@ -1,0 +1,11 @@
+{
+  "Login": {
+    "origin": [["src/app/sign-in/sign-in.tsx", 64]]
+  },
+  "Password": {
+    "origin": [["src/app/sign-in/sign-in.tsx", 72]]
+  },
+  "sign in": {
+    "origin": [["src/app/sign-in/sign-in.tsx", 86]]
+  }
+}

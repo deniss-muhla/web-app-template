@@ -1,0 +1,8 @@
+{
+  "projectId": "web-app-template",
+  "integrationFolder": "src",
+  "testFiles": "**/*.spec.js",
+  "cypress-watch-and-reload": {
+    "watch": "src/app/*"
+  }
+}

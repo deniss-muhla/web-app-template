@@ -1,0 +1,11 @@
+{
+  "Name": {
+    "origin": [["src/app/available-pets/available-pets.tsx", 15]]
+  },
+  "Category": {
+    "origin": [["src/app/available-pets/available-pets.tsx", 18]]
+  },
+  "Id": {
+    "origin": [["src/app/available-pets/available-pets.tsx", 21]]
+  }
+}

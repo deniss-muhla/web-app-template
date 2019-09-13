@@ -1,0 +1,34 @@
+{
+  "Category": {
+    "translation": "Категория",
+    "origin": [["src/app/available-pets/available-pets.tsx", 18]]
+  },
+  "Id": {
+    "translation": "",
+    "origin": [["src/app/available-pets/available-pets.tsx", 21]]
+  },
+  "Login": {
+    "translation": "Логин",
+    "origin": [["src/app/sign-in/sign-in.tsx", 64]]
+  },
+  "Name": {
+    "translation": "Имя",
+    "origin": [["src/app/available-pets/available-pets.tsx", 15]]
+  },
+  "Password": {
+    "translation": "Пароль",
+    "origin": [["src/app/sign-in/sign-in.tsx", 72]]
+  },
+  "Project version: {version}": {
+    "translation": "",
+    "origin": [["src/app/about/about.tsx", 17]]
+  },
+  "View the source on GitHub": {
+    "translation": "",
+    "origin": [["src/app/about/about.tsx", 8]]
+  },
+  "sign in": {
+    "translation": "войти в систему",
+    "origin": [["src/app/sign-in/sign-in.tsx", 86]]
+  }
+}

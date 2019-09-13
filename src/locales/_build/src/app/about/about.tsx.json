@@ -1,0 +1,8 @@
+{
+  "View the source on GitHub": {
+    "origin": [["src/app/about/about.tsx", 8]]
+  },
+  "Project version: {version}": {
+    "origin": [["src/app/about/about.tsx", 17]]
+  }
+}
