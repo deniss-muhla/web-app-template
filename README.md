@@ -2,33 +2,37 @@
 
 Web application template
 
+---
+
 ### Libraries and technologies
 
--   Yarn (package manager) https://yarnpkg.com/lang/en/
--   TypeScript http://www.typescriptlang.org/
--   Create React App (base system) https://create-react-app.dev/
--   Material-UI (UI framework) https://material-ui.com/
--   Redux (state management) https://redux.js.org/
--   Redux-Saga (state management and business logic) https://redux-saga.js.org/
--   LinguiJS (l10n) https://lingui.js.org/
--   Cypress (testing) https://www.cypress.io/
+-   [Yarn](https://yarnpkg.com/lang/en/) (package manager)
+-   [TypeScript](http://www.typescriptlang.org/)
+-   [Create React App](https://create-react-app.dev/) (base system)
+-   [Material-UI](https://material-ui.com/) (UI framework)
+-   [Redux](https://redux.js.org/) (state management)
+-   [Redux-Saga](https://redux-saga.js.org/) (state management and business logic)
+-   [LinguiJS](https://lingui.js.org/) (l10n)
+-   [Cypress](https://www.cypress.io/) (testing)
+
+---
 
 ### Project Scripts
 
 start development server
 
-```
+```console
 yarn start
 ```
 
 run tests
 
-```
+```console
 yarn test
 ```
 
 build production distributive
 
-```
+```console
 yarn build
 ```
