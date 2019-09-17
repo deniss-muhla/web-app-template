@@ -6,5 +6,6 @@
     "autoAlias": false
   },
   "public": true,
-  "builds": [{ "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }]
+  "builds": [{ "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }],
+  "routes": [{ "src": "/about.*", "headers": { "cache-control": "s-maxage=604800" }, "dest": "/" }, { "src": "/available-pets.*", "headers": { "cache-control": "s-maxage=604800" }, "dest": "/" }]
 }

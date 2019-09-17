@@ -1,4 +1,3 @@
-import Cookies from 'universal-cookie';
 import {
     CreateConnectorOptions,
     ConnectorProps,
@@ -8,7 +7,6 @@ import {
 } from '../../utils/connector';
 import { AsyncErrorsHelper } from '../../types';
 import { PetApi, Configuration, Pet, FindPetsByStatusStatusEnum } from '../__generated__/';
-import _ from 'lodash';
 
 // Init API helper class
 const petApi = new PetApi(new Configuration({ basePath: process.env.REACT_APP_API_BASE_PATH }));

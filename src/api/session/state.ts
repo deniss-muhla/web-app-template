@@ -8,9 +8,6 @@ import {
 } from '../../utils/connector';
 import { AsyncErrorsHelper } from '../../types';
 import { UserApi, Configuration, User } from '../__generated__/';
-import _ from 'lodash';
-import { put } from '@redux-saga/core/effects';
-import { apiPetsConnector } from '../pets';
 
 // Init API helper class
 const userApi = new UserApi(new Configuration({ basePath: process.env.REACT_APP_API_BASE_PATH }));

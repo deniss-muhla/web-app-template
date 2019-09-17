@@ -11,8 +11,6 @@ import { aboutConnector } from './about';
 import { signOutConnector } from './sign-out';
 import { AppLanguage, AppTheme } from '../types';
 import { apiSessionConnector } from '../api/session';
-import { put } from '@redux-saga/core/effects';
-import { apiPetsConnector } from '../api/pets';
 import { availablePetsConnector } from './available-pets';
 
 export interface AppState extends ConnectorState {

@@ -3,8 +3,7 @@ import {
     CreateConnectorOptions,
     Connector,
     ConnectorAction,
-    ConnectorState,
-    AsyncActionsConnectorState
+    ConnectorState
 } from '../../utils/connector';
 import { put } from '@redux-saga/core/effects';
 import { apiPetsConnector } from '../../api/pets';

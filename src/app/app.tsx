@@ -1,4 +1,4 @@
-import React, { FunctionComponent, PropsWithChildren, useEffect } from 'react';
+import React, { FunctionComponent, PropsWithChildren } from 'react';
 import { setupI18n } from '@lingui/core';
 import { I18nProvider } from '@lingui/react';
 import { AppProps } from './state';

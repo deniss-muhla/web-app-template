@@ -62,7 +62,7 @@
     "cypress:open": "cypress open --config baseUrl=http://localhost:3000",
     "cypress:run": "cypress run --config baseUrl=http://localhost:3000",
     "build": "react-scripts build",
-    "test": "cypress run --record --config baseUrl=http://localhost:3000",
+    "test": "cypress run --config baseUrl=http://localhost:3000",
     "eject": "react-scripts eject",
     "l10n:add": "lingui add-locale",
     "l10n:extract": "lingui extract",

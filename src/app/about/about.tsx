@@ -2,7 +2,7 @@ import React, { FunctionComponent, PropsWithChildren } from 'react';
 import { AboutProps } from './state';
 import { withI18n, withI18nProps } from '@lingui/react';
 import { Trans, t } from '@lingui/macro';
-import { IconButton, Link, Typography, Fab, Tooltip } from '@material-ui/core';
+import { Link, Typography, Fab, Tooltip } from '@material-ui/core';
 import { GithubCircle as GithubIcon } from 'mdi-material-ui';
 
 const About: FunctionComponent<PropsWithChildren<AboutProps & withI18nProps>> = ({ i18n, version, updateVersion }) => {

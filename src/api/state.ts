@@ -2,14 +2,11 @@ import {
     CreateConnectorOptions,
     ConnectorProps,
     Connector,
-    ConnectorPayloadAction,
-    ConnectorAction,
     AsyncActionsConnectorState,
     ConnectorState
 } from '../utils/connector';
 import { apiSessionConnector } from './session';
 import { AsyncErrorsHelper } from '../types';
-import { delay } from '@redux-saga/core/effects';
 import { apiPetsConnector } from './pets';
 
 export interface ApiState extends ConnectorState, AsyncActionsConnectorState {}

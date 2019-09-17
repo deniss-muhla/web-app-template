@@ -1,8 +1,7 @@
-import React, { FunctionComponent, PropsWithChildren, useState, useCallback, ReactNode } from 'react';
+import React, { FunctionComponent, PropsWithChildren, useState, useCallback } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Theme, IconButton, AppBar, Toolbar, MenuItem, Menu, Tabs, Tab } from '@material-ui/core';
 import {
-    Menu as MenuIcon,
     ThemeLightDark as ThemeIcon,
     Web as TranslateIcon,
     Paw as PetIcon,
