@@ -60,7 +60,7 @@ const mapStateToProps = (state: CustomState, _ownProps: {}, globalState: {}) => 
     };
 };
 
-const appCreateConnectorOptions: CreateConnectorOptions<CustomState, CustomActions> = {
+const customCreateConnectorOptions: CreateConnectorOptions<CustomState, CustomActions> = {
     // module name
     name: 'app',
     // initial module state
@@ -106,7 +106,7 @@ const appCreateConnectorOptions: CreateConnectorOptions<CustomState, CustomActio
 
 ```javascript
 // Create new connector
-const customConnector = new Connector<CustomState, CustomActions>(appCreateConnectorOptions);
+const customConnector = new Connector<CustomState, CustomActions>(customCreateConnectorOptions);
 
 // Define component props type
 export type CustomProps = ConnectorProps<ReturnType<typeof mapStateToProps>, CustomActions>;
