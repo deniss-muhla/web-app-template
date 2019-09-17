@@ -106,11 +106,11 @@ const appCreateConnectorOptions: CreateConnectorOptions<CustomState, CustomActio
 
 ```javascript
 // Create new connector
-const appConnector = new Connector<CustomState, CustomActions>(appCreateConnectorOptions);
+const customConnector = new Connector<CustomState, CustomActions>(appCreateConnectorOptions);
 
 // Define component props type
 export type CustomProps = ConnectorProps<ReturnType<typeof mapStateToProps>, CustomActions>;
-export { appConnector };
+export { customConnector };
 ```
 
 ---
