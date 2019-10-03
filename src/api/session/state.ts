@@ -60,6 +60,30 @@ const createConnectorOptions: CreateConnectorOptions<ApiSessionState, ApiSession
             return userApi.logoutUser();
         }
     },
+    sagas: {
+        init: function*() {
+            // For testing only
+            let testUser: User | undefined = undefined;
+            try {
+                testUser = yield userApi.getUserByName({ username: 'web-app-template-user' });
+            } catch (error) {
+                console.error(error);
+            }
+            if (!testUser) {
+                try {
+                    yield userApi.createUser({
+                        body: {
+                            username: 'web-app-template-user',
+                            password: 'web-app-template-user'
+                        }
+                    });
+                    console.info('web-app-template-user created');
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+        }
+    },
     nestedConnectors: []
 };
 
